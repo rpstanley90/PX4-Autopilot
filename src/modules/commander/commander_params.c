@@ -984,3 +984,18 @@ PARAM_DEFINE_INT32(COM_POWER_COUNT, 1);
  * @decimal 3
  */
 PARAM_DEFINE_FLOAT(COM_LKDOWN_TKO, 3.0f);
+
+/**
+ * Delay between link loss and configured reaction in Position and Mission mode
+ *
+ * A non-zero, positive value makes the failsafe reaction first stop the vehicle and wait
+ * before proceeding with the configured failsafe reaction NAV_RCL_ACT.
+ * A zero or negative value disables the delay.
+ *
+ * @group Commander
+ * @unit s
+ * @min -1.0
+ * @max 60.0
+ * @decimal 3
+ */
+PARAM_DEFINE_FLOAT(COM_LL_DELAY, 15.0f);
