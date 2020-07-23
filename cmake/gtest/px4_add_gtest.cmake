@@ -94,6 +94,7 @@ function(px4_add_functional_gtest)
 		                                              px4_platform
 		                                              modules__uORB
 		                                              px4_layer
+		                                              px4_platform
 		                                              systemlib
 		                                              cdev
 		                                              px4_work_queue
