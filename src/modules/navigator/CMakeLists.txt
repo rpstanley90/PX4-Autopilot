@@ -54,3 +54,5 @@ px4_add_module(
 		ecl_geo
 		landing_slope
 	)
+
+px4_add_functional_gtest(SRC RangeRTLTest.cpp LINKLIBS modules__navigator modules__dataman)
