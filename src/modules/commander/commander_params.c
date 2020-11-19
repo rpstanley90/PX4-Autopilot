@@ -995,7 +995,7 @@ PARAM_DEFINE_FLOAT(COM_LKDOWN_TKO, 3.0f);
  * @group Commander
  * @unit s
  * @min -1.0
- * @max 60.0
+ * @max 25.0
  * @decimal 3
  */
 PARAM_DEFINE_FLOAT(COM_LL_DELAY, 15.0f);
