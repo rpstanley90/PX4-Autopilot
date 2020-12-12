@@ -235,9 +235,6 @@ Sensors::Sensors(bool hil_enabled) :
 	_parameter_handles.air_tube_length = param_find("CAL_AIR_TUBELEN");
 	_parameter_handles.air_tube_diameter_mm = param_find("CAL_AIR_TUBED_MM");
 
-	param_find("BAT_V_DIV");
-	param_find("BAT_A_PER_V");
-
 	param_find("CAL_ACC0_ID");
 	param_find("CAL_GYRO0_ID");
 

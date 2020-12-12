@@ -23,11 +23,9 @@ unset BL_FILE
 
 if [ $AUTOCNF = yes ]
 then
-	param set BAT_V_DIV 18
 	param set BAT1_V_DIV 18
 	param set BAT2_V_DIV 18
 
-	param set BAT_A_PER_V 24
 	param set BAT1_A_PER_V 24
 	param set BAT2_A_PER_V 24
 

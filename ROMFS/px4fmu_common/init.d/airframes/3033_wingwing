@@ -25,7 +25,7 @@
 
 if [ $AUTOCNF = yes ]
 then
-	param set BAT_N_CELLS 2
+	param set BAT1_N_CELLS 2
 	param set FW_AIRSPD_MAX 15
 	param set FW_AIRSPD_MIN 10
 	param set FW_AIRSPD_TRIM 13

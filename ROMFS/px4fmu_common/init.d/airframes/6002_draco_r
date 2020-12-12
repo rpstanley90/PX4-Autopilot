@@ -118,9 +118,9 @@ then
 	param set PWM_RATE 0
 
 	# Battery
-	param set BAT_SOURCE 0
-	param set BAT_N_CELLS 4
-	param set BAT_V_DIV 10.133
+	param set BAT1_SOURCE 0
+	param set BAT1_N_CELLS 4
+	param set BAT1_V_DIV 10.133
 
 	# TELEM1 ttyS1
 	param set MAV_0_CONFIG 101

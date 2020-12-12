@@ -21,7 +21,7 @@ set PARAM_DEFAULTS_VER 2
 
 if [ $AUTOCNF = yes ]
 then
-	param set BAT_N_CELLS 4
+	param set BAT1_N_CELLS 4
 
 	param set GPS_1_CONFIG 0
 	param set RC_PORT_CONFIG 201
