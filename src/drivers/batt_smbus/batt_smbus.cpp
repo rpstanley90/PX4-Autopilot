@@ -57,7 +57,7 @@ BATT_SMBUS::BATT_SMBUS(I2CSPIBusOption bus_option, const int bus, SMBus *interfa
 	int battsource = 1;
 	int batt_device_type = (int)SMBUS_DEVICE_TYPE::UNDEFINED;
 
-	param_set(param_find("BAT1_SOURCE1"), &battsource);
+	param_set(param_find("BAT1_SOURCE"), &battsource);
 	param_get(param_find("BAT1_SMBUS_MODEL"), &batt_device_type);
 
 	//TODO: probe the device and autodetect its type
