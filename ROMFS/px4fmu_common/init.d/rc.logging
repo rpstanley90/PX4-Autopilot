@@ -33,3 +33,6 @@ if ! param compare SDLOG_MODE -1
 then
 	logger start -b ${LOGGER_BUF} -t ${LOGGER_ARGS}
 fi
+
+#Start up custom topic logger
+hums_topic_logger start
