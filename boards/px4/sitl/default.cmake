@@ -37,6 +37,7 @@ px4_add_board(
 		fw_pos_control_l1
 		hums_simple_app
 		hums_topic_logger
+		key_receiver #Custom MAVROS message
 		land_detector
 		landing_target_estimator
 		load_mon
